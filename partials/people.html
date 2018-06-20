@@ -1,0 +1,17 @@
+<div class="people-container">
+    <div class="main-people-content d-flex flex-column align-items-center" ng-repeat="user in vm.users | orderBy:'firstName'">
+        <div class="main-people-container col-12 col-lg-6">
+            <div class="people-header col-12 d-flex align-items-center justify-content-between justify-content-lg-start">
+                <div class="people-image"><img src="./img/user-colored.svg" alt=""></div>
+                <div class="people-name"><p>{{user.firstName}}&nbsp;{{user.lastName}}</p></div>
+            </div>
+            <div class="people-footer col-12 d-flex align-items-center justify-content-between">
+                <div class="people-status" ng-class="{ 'silver': !user.online }">{{user.online ? 'Online': 'Offline'}}</div>
+                <div class="people-follow col-6 col-lg-4">
+                    <button class="btn btn-primary col-12" ng-if=" !vm.currentUser.followsUsers.includes(user.id) " ng-click="vm.follow(user.id)">Follow</button>
+                    <button class="btn btn-primary col-12 red" ng-if=" vm.currentUser.followsUsers.includes(user.id) " ng-click="vm.unFollow(user.id)">Unfollow</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

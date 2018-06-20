@@ -1,0 +1,24 @@
+<div class="main-container">
+    <div class="main-post-content d-flex flex-column align-items-center" ng-repeat="post in vm.allVisiblePosts | orderBy:'id':true">
+        <div class="main-post-container col-12 col-lg-6">
+            <div class="post-header d-flex justify-content-between justify-content-lg-start">
+                <div class="post-header-image"><img src="./img/user-colored.svg" alt=""></div>
+                <div class="post-header-name"><p>{{post.firstName}}&nbsp;{{post.lastName}}</p></div>
+            </div>
+            <div class="post-content">
+                <a href="#post-page/{{post.id}}">{{post.text}}</a>
+            </div>
+            <div class="post-footer d-flex justify-content-between justify-content-lg-start">
+                <div class="post-like d-flex">
+                    <img ng-src="{{post.likedCurrent ? './img/like.svg':'./img/like-empty.svg'}}" ng-click="vm.like(post.id, post.likedCurrent)" alt="like">
+                    <p>{{post.likedByUsers.length}}</p>
+                </div>
+                <a href="#post-page/{{post.id}}" class="post-comment d-flex">
+                    <img src="./img/chat.svg" alt="">
+                    <p>{{post.comments.length}}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div ng-include="'partials/footer.html'"></div>

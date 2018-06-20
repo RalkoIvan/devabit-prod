@@ -1,0 +1,192 @@
+[{
+  "id": 1,
+  "user": 1,
+  "likedByUsers": [3,4,5],
+  "comments": [
+    {
+      "leftByUser": 4,
+      "commentText": "Warning: While Object.prototype.__proto__ is supported today in most browsers, its existence and exact behavior has only been standardized in the ECMAScript 2015 specification as a legacy "
+    },
+    {
+        "leftByUser": 5,
+        "commentText": "The __proto__ property of Object.prototype is an accessor property (a getter function and a setter function) that exposes the internal [[Prototype]] (either an object or null) of the object through which it is accessed."
+      },
+    {
+        "leftByUser": 5,
+        "commentText": "The use of __proto__ is controversial, and has been discouraged. It was never originally included in the EcmaScript language spec, but modern browsers decided to implement it anyway. Only recently, the __proto__ property has been standardized in the ECMAScript 2015 language specification for web browsers to ensure compatibility, so will be supported into the future. It is deprecated in favor of "
+      }
+  ],
+  "text": "When attached to countable objects (e.g. apples, cars, etc.), each means more than 2, but there are no fixed rules for how many each refers to. People usually say what feels right, and that varies with each person. To me, 'several' implies more than a 'few', but less than 'many'."
+},
+  {
+    "id": 2,
+    "user": 6,
+    "likedByUsers": [1,3,5],
+    "comments": [
+      {
+        "leftByUser": 2,
+        "commentText": "The __proto__ property can also be used in an object literal definition to set the object [[Prototype]] on creation, as an alternative to"
+      },
+      {
+        "leftByUser": 3,
+        "commentText": "objects created using array literals, this value is Array.prototype. For functions, this value is Function.prototype. "
+      },
+      {
+        "leftByUser": 2,
+        "commentText": "To understand how prototypes are used for inheritance, see guide article Inheritance and the prototype chain."
+      },
+      {
+        "leftByUser": 7,
+        "commentText": "To understand how prototypes are used for inheritance, see guide article Inheritance and the prototype chain."
+      },
+      {
+        "leftByUser": 9,
+        "commentText": "To understand how prototypes are used for inheritance, see guide article Inheritance and the prototype chain."
+      }
+    ],
+    "text": "#4 implies more glasses than #1. #3 could replace #1 or #4 because it isn't specific about the number. #2 is completely different; it means there are not many glasses."
+},
+  {
+    "id": 3,
+    "user": 2,
+    "likedByUsers": [6,2,7,9],
+    "comments": [
+      {
+        "leftByUser": 1,
+        "commentText": "Included in the (normative) annex for additional ECMAScript legacy features for Web browsers (note that the specification codifies what is already in implementations)."
+      },
+      {
+        "leftByUser": 3,
+        "commentText": "Open youtube.com in safari or chrome browser"
+      }
+    ],
+    "text": "These words are synonyms and can be used interchangeably when talking about quantity. Both refer to more than 1, but not many."
+},
+  {
+    "id": 4,
+    "user": 1,
+    "likedByUsers": [1,2,3],
+    "comments": [
+      {
+        "leftByUser": 2,
+        "commentText": "Open youtube.com in safari or chrome browser"
+      }
+    ],
+    "text": "Some is a small quantity, and several is a large quantity."
+},
+  {
+    "id": 5,
+    "user": 7,
+    "likedByUsers": [3,4],
+    "comments": [
+      {
+        "leftByUser": 6,
+        "commentText": "While the ECMAScript 2015 specification dictates that support for __proto__ is required only for web browsers (although being normative), other environments may support it as well for legacy usage."
+      },
+      {
+        "leftByUser": 8,
+        "commentText": "Warning: While Object.prototype.__proto__ is supported today in most browsers, its existence and exact behavior has only been standardized in the ECMAScript 2015 specification as a legacy "
+      },
+      {
+        "leftByUser": 8,
+        "commentText": "Open youtube.com in safari or chrome browser"
+      }
+    ],
+    "text": "The function which invokes an asynchronous function cannot wait till the async function returns a value. Because, it just invokes the async function and executes the rest of the code in it. So, when an async function returns a value, it will not be received by the same function which invoked it."
+},
+  {
+    "id": 6,
+    "user": 3,
+    "likedByUsers": [1],
+    "comments": [
+      {
+        "leftByUser": 6,
+        "commentText": "Changing the [[Prototype]] of an object is, by the nature of how modern JavaScript engines optimize property accesses, a very slow operation, in every browser and JavaScript engine. The effects on performance of altering inheritance are subtle and far-flung, a"
+      },
+      {
+        "leftByUser": 3,
+        "commentText": "ThomWiggers helped me with the missing piece - and here's my final code in all it's naive glory. No parameter checking or any kind of smarts yet, but it takes two parameters"
+      },
+      {
+        "leftByUser": 3,
+        "commentText": "Open youtube.com in safari or chrome browser"
+      }
+    ],
+    "text": "Ok.. So @ThomWiggers helped me with the missing piece - and here's my final code in all it's naive glory. No parameter checking or any kind of smarts yet, but it takes two parameters - filename and whether to turn static code analysis to true or false. I've got about 30 projects I want to turn it on for for nightly builds but really don't want to turn it on day to day as it's just too slow."
+},
+  {
+    "id": 7,
+    "user": 2,
+    "likedByUsers": [],
+    "comments": [
+      {
+        "leftByUser": 8,
+        "commentText": "For better support, it is recommended that only Object.getPrototypeOf() be used instead."
+      },
+      {
+        "leftByUser": 2,
+        "commentText": "CSS (Cascading Style Sheets) is a representation style sheet language used for describing the look and formatting of HTML (Hyper Text Markup Language), XML (Extensible Markup Language) doc"
+      },
+      {
+        "leftByUser": 9,
+        "commentText": "Open youtube.com in safari or chrome browser"
+      }
+    ],
+    "text": "CSS (Cascading Style Sheets) is a representation style sheet language used for describing the look and formatting of HTML (Hyper Text Markup Language), XML (Extensible Markup Language) documents and SVG elements including (but not limited to) colors, layout, fonts and animations."
+},
+  {
+    "id": 8,
+    "user": 8,
+    "likedByUsers": [9],
+    "comments": [
+      {
+        "leftByUser": 1,
+        "commentText": "Open youtube.com in safari or chrome browser"
+      },
+      {
+        "leftByUser": 4,
+        "commentText": "I have such image this is SVG format. I need to use it as header background (cover) under this element are others what should be visible in the place where a header is rounded. I can't use it a"
+      },
+      {
+        "leftByUser": 5,
+        "commentText": "Open youtube.com in safari or chrome browser"
+      }
+    ],
+    "text": "I have such image this is SVG format. I need to use it as header background (cover) under this element are others what should be visible in the place where a header is rounded. I can't use it as ..."
+},
+  {
+    "id": 9,
+    "user": 1,
+    "likedByUsers": [10,1],
+    "comments": [
+      {
+        "leftByUser": 7,
+        "commentText": "The Object.getOwnPropertyDescriptor() method returns a property descriptor for an own property (that is, one directly present on an object and not in the object's prototype chain) of a given object."
+      },
+      {
+        "leftByUser": 4,
+        "commentText": "When attached to countable objects (e.g. apples, cars, etc.), each means more than 2, but there are no fixed rules for how many each refers to. People usually say what feels right, and that varies with each person. To me, 'several' implies more than a 'few', but less than 'many'"
+      }
+    ],
+    "text": "I hosted website on github and linked it with domain name from freenom by url forwarding.... Everything is fine with the website but Media queries of css is not working after hosting Website"
+},
+  {
+    "id": 10,
+    "user": 1,
+    "likedByUsers": [1,3],
+    "comments": [
+      {
+        "leftByUser": 7,
+        "commentText": "ted website on github and linked it with domain name from"
+      },
+      {
+        "leftByUser": 3,
+        "commentText": "It plays the video inline (Its doesnt g"
+      },
+      {
+        "leftByUser": 2,
+        "commentText": "Open youtube.com in safari or chrome browser"
+      }
+    ],
+    "text": "Just like youtube does. Open youtube.com in safari or chrome browser. It plays the video inline (Its doesnt goes fullscreen automatically)."
+}]
